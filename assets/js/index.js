@@ -38,3 +38,9 @@ function renderAvatar(user) {
     $('.text-avatar').html(firstChar).show()
   }
 }
+
+//点击事件
+function articleListClick() {
+  console.log(1112121);
+  $('#dl_article').click()
+}
